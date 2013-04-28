@@ -15,6 +15,7 @@ Compilado contra la version .74 del framework.
 Para saber mas:
 
 http://www.emotiv.com/
+
 http://www.thisisnotanumber.org/electroencefalografia/
 
 -----------------------------------------
