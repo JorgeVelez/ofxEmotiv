@@ -1,0 +1,1 @@
+Copiar aqui edk.lib y edk_utils.lib

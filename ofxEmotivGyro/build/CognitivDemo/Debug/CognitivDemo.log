@@ -1,0 +1,36 @@
+﻿Build started 20/04/2013 08:15:39 p.m..
+     1>Project "C:\Users\jorge velez\Desktop\examples\example4\CognitivDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "../build/CognitivDemo/Debug\CognitivDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../build/CognitivDemo/Debug\\" /Fd"../build/CognitivDemo/Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CognitivControl.cpp CognitivDemo.cpp Socket.cpp
+         Socket.cpp
+         CognitivDemo.cpp
+         CognitivControl.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"../build/CognitivDemo/Debug\CognitivDemo.exe.embed.manifest.res" ../build/CognitivDemo/Debug\CognitivDemo_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\jorge velez\Desktop\examples\example4\../bin\CognitivDemo.exe) does not match the Linker's OutputFile property value (C:\Users\jorge velez\Desktop\examples\bin\CognitivDemo_debug.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(CognitivDemo) does not match the Linker's OutputFile property value (CognitivDemo_debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin\CognitivDemo_debug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"../build/CognitivDemo/Debug\CognitivDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jorge velez\Desktop\examples\bin\CognitivDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin\CognitivDemo.lib" /MACHINE:X86 ../build/CognitivDemo/Debug\CognitivDemo.exe.embed.manifest.res
+         ../build/CognitivDemo/Debug\CognitivControl.obj
+         ../build/CognitivDemo/Debug\CognitivDemo.obj
+         ../build/CognitivDemo/Debug\Socket.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"../build/CognitivDemo/Debug\CognitivDemo.exe.embed.manifest" /manifest ../build/CognitivDemo/Debug\CognitivDemo.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"../build/CognitivDemo/Debug\CognitivDemo.exe.embed.manifest.res" ../build/CognitivDemo/Debug\CognitivDemo_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin\CognitivDemo_debug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"../build/CognitivDemo/Debug\CognitivDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jorge velez\Desktop\examples\bin\CognitivDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin\CognitivDemo.lib" /MACHINE:X86 ../build/CognitivDemo/Debug\CognitivDemo.exe.embed.manifest.res
+         ../build/CognitivDemo/Debug\CognitivControl.obj
+         ../build/CognitivDemo/Debug\CognitivDemo.obj
+         ../build/CognitivDemo/Debug\Socket.obj
+         CognitivDemo.vcxproj -> C:\Users\jorge velez\Desktop\examples\example4\../bin\CognitivDemo.exe
+       FinalizeBuildStatus:
+         Deleting file "../build/CognitivDemo/Debug\CognitivDemo.unsuccessfulbuild".
+         Touching "../build/CognitivDemo/Debug\CognitivDemo.lastbuildstate".
+     1>Done Building Project "C:\Users\jorge velez\Desktop\examples\example4\CognitivDemo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.78
