@@ -3,14 +3,14 @@ ofxEmotiv
 
 Ejemplos del sdk de Emotiv modificados para utilizarlos dentro de OpenFrameworks.
 
-El SDK solo esta hecho para windows, asi que solo incluyo las soluciones para 
+El SDK esta hecho para windows, así que solo incluyo las soluciones para 
 Visual C++ 2010
 
-Incluyo instrucciones para saber a donde copiar los archivos del SDK.
+Incluyo instrucciones para saber en donde copiar los archivos del SDK.
 
 Colocar en el folder de apps de openframeworks.
 
-Compilado contra la version .74 del framework.
+Compilado contra la versión .74 del framework.
 
 Para saber mas:
 
