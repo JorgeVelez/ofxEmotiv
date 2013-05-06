@@ -1,7 +1,6 @@
 ofxEmotiv
 =========
-
-Ejemplos del sdk de Emotiv modificados para utilizarlos dentro de OpenFrameworks.
+Addon para obtener las lecturas del Epoc Emotiv Headset
 
 El SDK esta hecho para windows, así que solo incluyo las soluciones para 
 Visual C++ 2010
