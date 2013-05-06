@@ -1,9 +1,6 @@
 ofxEmotiv
 =========
-Addon para obtener las lecturas del Epoc Emotiv Headset
-
-El SDK esta hecho para windows, así que solo incluyo las soluciones para 
-Visual C++ 2010
+Addon para obtener las lecturas del Epoc Emotiv Headset.
 
 Incluyo instrucciones para saber en donde copiar los archivos del SDK.
 
